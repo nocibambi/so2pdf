@@ -10,7 +10,7 @@ Currently it does not support the other stack excange pages.
 - re
 
 ## Usage
-1. Get the codes of the posts from their url. For instance, in the following url, http://www.stackprinter.com/export?format=HTML&service=stackoverflow&printer=false&question=31681373, the code you need is the number at the end: '31681373'.
+1. Get the codes of the posts from their url. For instance, in the following url, https://stackoverflow.com/questions/31681373/making-svm-run-faster-in-python, the code you need is the number after '/questions/': '31681373'.
 2. Insert the codes into the `codes` list within the script.
 3. Run the script
     1. From terminal: `python path-to-so2pdf/so2pdf.py`
